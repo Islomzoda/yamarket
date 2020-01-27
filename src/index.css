@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.conteyner {
+  padding-top: 32px;
+}
+
+.flex {
+  display:flex;
+  justify-content: space-around;
+  height: 120px;
+}
+  .colorForAmount {
+  color: black;
+}
+.colorForAmount .discount{
+  text-decoration: line-through;
+  color: gray;
+}
+.colorForAmount .discountPng img{
+  padding-top: 32px;
+  height:4px;
+}
+.colorForAmount .discountPng span{
+    background: #222;
+    color: #fff;
+    border-radius: 2px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 14px;
+    padding: 1px 1px;
+}
+
